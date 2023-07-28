@@ -40,7 +40,7 @@ a {
   visibility: hidden;
 }
 
-.show {
+.shows {
   visibility: visible;
   animation: bt_ani 0.6s;
 }

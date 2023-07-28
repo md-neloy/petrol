@@ -26,25 +26,25 @@ $primary_color: #f40404;
   width: 40px;
   height: 40px;
   z-index: 99;
-  border:none;
+  border: none;
   border-radius: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
   position: fixed;
   bottom: 10%;
-  right:20px;
-  visibility:hidden;
+  right: 20px;
+  visibility: hidden;
 }
-.show{
+.shows {
   visibility: visible;
   animation: bt_ani 0.6s;
 }
-@keyframes bt_ani{
-  from{
-    transform:translateY(-200%)
+@keyframes bt_ani {
+  from {
+    transform: translateY(-200%);
   }
-  to{
+  to {
     transform: translateY(0);
   }
 }

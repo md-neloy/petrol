@@ -30,10 +30,10 @@ let btop = document.querySelector(".backtop");
 window.addEventListener("scroll", () => {
   let count = window.scrollY;
   if (count > 250) {
-    btop.classList.add("show")
+    btop.classList.add("shows")
   }
   else {
-    btop.classList.remove("show")
+    btop.classList.remove("shows")
   }
   btop.addEventListener("click", () => {
     window.scrollTo({
